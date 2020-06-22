@@ -1,1 +1,0 @@
-Commit kedua Saya ini
