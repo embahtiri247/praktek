@@ -1,1 +1,3 @@
 # maemo
+
+# menambah kata-kata
