@@ -1,2 +1,0 @@
-# praktek
-Test Praktek GitHub
