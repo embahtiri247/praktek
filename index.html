@@ -1,0 +1,71 @@
+<html>
+<head>
+<script type = "text/javascript" src="jquery-3.5.1.js"></script>
+<script type = "text/javascript">
+$(document).ready(function(){
+$(".sembunyi").click(function(){ $("#foto").hide("slow");
+$(".tampil").click(function(){ $("#foto").show("slow");
+});
+});
+});
+</script>
+<script type = "text/javascript">
+$(document).ready(function(){
+$(".sembunyi1").click(function(){ $("#foto1").hide("slow");
+$(".tampil1").click(function(){ $("#foto1").show("slow");
+});
+});
+});
+</script>
+<script type = "text/javascript">
+$(document).ready(function(){
+$("div").addClass("biru"); //selector nama tag --> div
+$("#daftar").addClass("merahkuning"); //selector id --> id daftar
+$(".subdaftar").addClass("kuninghitam");
+
+});
+</script>
+<style type="text/css">
+.biru{
+color: blue;
+font-weight: bold;
+}
+.merahkuning{
+color: red;
+font-weight: bold;
+background-color:yellow;
+padding: 3x
+}
+.kuninghitam{
+color: black;
+background-color:yellow;
+}
+</style>
+</head>
+<body>
+<div>
+<p> Paragraf Pertama </p>
+</div>
+<div>
+<ul>
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+<p> Paragraf Kedua </p>
+</div>
+<div>
+<ul id="daftar">
+<li>item 1</li>
+<li>item 2</li>
+<li class="subdaftar">item 3</li>
+</ul>
+</div>
+<button class="sembunyi">sembunyikan</button> 
+<button class="tampil">tampilkan</button>
+<p><img id="foto" src="OSIApproved.png"></p>
+<button class="sembunyi1">sembunyikan</button> 
+<button class="tampil1">tampilkan</button>
+<p><img id="foto1" src="WIN_20200316_094735.jpg"></p> 
+</body>
+</html>
